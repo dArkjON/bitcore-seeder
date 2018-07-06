@@ -136,13 +136,16 @@ class CNode {
               || strSubVer.find("/Satoshi:0.12.0/") != std::string::npos
               || strSubVer.find("/Satoshi:0.12.1/") != std::string::npos
               || strSubVer.find("/Satoshi:0.12.99/") != std::string::npos
+              || strSubVer.find("/Statoshi:0.12.99/") != std::string::npos
               || strSubVer.find("/Satoshi:0.12.1(bitcore)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.13.0/") != std::string::npos
+              || strSubVer.find("/Satoshi:0.13.0(bitcore)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.13.1/") != std::string::npos
               || strSubVer.find("/Satoshi:0.13.2/") != std::string::npos
               || strSubVer.find("/Satoshi:0.13.99/") != std::string::npos
               || strSubVer.find("/Satoshi:0.14.0/") != std::string::npos
               || strSubVer.find("/Satoshi:0.14.1/") != std::string::npos
+              || strSubVer.find("/Satoshi:0.14.1(UASF-SegWit-BIP148)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.14.1(UASF-SegWit-BIP148)/Knots:20170420/") != std::string::npos
               || strSubVer.find("/Satoshi:0.14.1.6/") != std::string::npos
               || strSubVer.find("/Satoshi:0.14.2/") != std::string::npos
@@ -150,6 +153,7 @@ class CNode {
               || strSubVer.find("/Satoshi:0.14.2(bitcore)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.14.99/") != std::string::npos
               || strSubVer.find("/Satoshi:0.15.0/") != std::string::npos
+              || strSubVer.find("/Satoshi:0.15.0(UASF-SegWit-BIP148)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.15.0()/") != std::string::npos
               || strSubVer.find("/Satoshi:0.15.0(bitcore)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.15.0(minerbitcoin)/") != std::string::npos
@@ -164,6 +168,7 @@ class CNode {
               || strSubVer.find("/Satoshi:0.15.99/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.0()/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.0/") != std::string::npos
+              || strSubVer.find("/Satoshi:0.16.0(UASF-SegWit-BIP 148)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.0(Delete Conbase)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.0(TheRoom)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.0(bitcore)/") != std::string::npos
@@ -176,6 +181,7 @@ class CNode {
               || strSubVer.find("/Satoshi:0.16.0(the.lightning.land)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.1/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.1()/") != std::string::npos
+              || strSubVer.find("/Satoshi:0.16.1(SegWit)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.1(MONEYBADGER_DONT_CARE)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.1(LeiTech-GbR)/") != std::string::npos
               || strSubVer.find("/Satoshi:0.16.1(Quantitative Easing LOL)/") != std::string::npos
@@ -200,7 +206,9 @@ class CNode {
               || strSubVer.find("/SpuerBitcoin:0.16.0.2/") != std::string::npos
               || strSubVer.find("/SuperBitcoin:0.16.0.2/") != std::string::npos
               || strSubVer.find("/SuperBitcoin:0.17.0.1/") != std::string::npos
+              || strSubVer.find("/BitcoinUnlimited:1.0.0.1(EB16; AD12)/") != std::string::npos
               || strSubVer.find("/BitcoinUnlimited:1.0.1.1(EB16; AD12)/") != std::string::npos
+              || strSubVer.find("/BitcoinUnlimited:1.0.1.2(EB16; AD12)/") != std::string::npos
               || strSubVer.find("/BitcoinUnlimited:1.0.2(EB16; AD12)/") != std::string::npos
               || strSubVer.find("/BitcoinUnlimited:1.0.2(EB64; AD4)/") != std::string::npos
               || strSubVer.find("/BitcoinUnlimited:1.0.3(EB1; AD6)/") != std::string::npos
@@ -225,13 +233,17 @@ class CNode {
               || strSubVer.find("/CKCoind:0.15.1/") != std::string::npos
               || strSubVer.find("/CKCoind:0.16.0/") != std::string::npos
               || strSubVer.find("/btcwire:0.2.0/btcd:0.9.0/") != std::string::npos
+              || strSubVer.find("/btcwire:0.4.0/btcd:0.12.0/") != std::string::npos
               || strSubVer.find("/btcwire:0.5.0/btcd:0.12.0/") != std::string::npos
               || strSubVer.find("/libbitcoin:3.4.0/") != std::string::npos
               || strSubVer.find("/WorldBitcoin:0.16.1/") != std::string::npos
               || strSubVer.find("/therealbitcoin.org:0.5.4.2/") != std::string::npos
+              || strSubVer.find("/therealbitcoin.org:0.5.4.2/") != std::string::npos
+              || strSubVer.find("/therealbitcoin.org:0.7.0.1/") != std::string::npos
               || strSubVer.find("/therealbitcoin.org:0.9.99.99/") != std::string::npos
               || strSubVer.find("/Cornell-Falcon-Network:0.1.0/") != std::string::npos
               || strSubVer.find("/Classic:1.2.0(EB3.7)/") != std::string::npos
+              || strSubVer.find("/Classic:1.3.1(EB8)/") != std::string::npos
               || strSubVer.find("/Classic:1.3.3(EB8)/") != std::string::npos
               || strSubVer.find("/Classic:1.3.4(EB8)/") != std::string::npos
               || strSubVer.find("/Classic:1.3.8(EB8)/") != std::string::npos
@@ -242,6 +254,9 @@ class CNode {
               || strSubVer.find("/bcoin:v1.0.0-pre/") != std::string::npos
               || strSubVer.find("/bcoin:v1.0.0-beta.12/") != std::string::npos
               || strSubVer.find("/Gocoin:1.9.5/") != std::string::npos
+              || strSubVer.find("/QuantumBitcoin:0.16.0.2/") != std::string::npos
+              || strSubVer.find("/Bitcoin World:0.15.0.1/") != std::string::npos
+              || strSubVer.find("/Aurum:0.12.2/") != std::string::npos
               ) {
         ban = 100000;
         return true;
